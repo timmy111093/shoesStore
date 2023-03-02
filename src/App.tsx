@@ -4,9 +4,7 @@ import LayoutArea from './components/layoutArea/layoutArea';
 import './App.css';
 
 function App() {
-  return (
-     <LayoutArea />
-  );
+  return <LayoutArea />
 }
 
 export default App;
