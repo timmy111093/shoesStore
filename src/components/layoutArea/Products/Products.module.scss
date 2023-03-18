@@ -1,0 +1,22 @@
+.Products {
+
+      &, .imgContainer{
+            display: flex;
+            flex-wrap:wrap;
+            // justify-content: center;
+            align-items: center;
+            & img{
+                  // flex:content;
+                  width: 30%;
+                  height: 190px;
+                  border-radius: 5px;
+                  margin: 5px;
+            }
+      }
+      & h3{
+            margin: 5px;
+      }
+
+
+
+}

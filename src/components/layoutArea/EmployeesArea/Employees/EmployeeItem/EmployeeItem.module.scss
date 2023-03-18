@@ -1,0 +1,30 @@
+.EmployeeItem {
+      display: flex;
+      flex-wrap: wrap;
+      &__empCard{
+            background: linear-gradient(135deg,skyblue,whitesmoke);
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+            // margin: 1%;
+            border: 0.2px solid;
+            border-radius: 5px;
+            padding: 5px;
+      }
+      &__empHeader{
+            text-align: center;
+            border-bottom: 0.5px solid;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            font-weight: bold;
+      }
+      &__empBody{
+            padding:5px 10px 5px 10px;
+      }
+
+            & img{
+                  border-radius: 5px;
+                  border-top: 0.5px solid;
+            }
+      
+}

@@ -1,0 +1,10 @@
+.ShoesCard {
+      display: flex;
+      & table,td{
+            border: 1px solid;
+            & img{
+                  max-height: 100px;
+            }
+      }
+
+}
