@@ -5,7 +5,8 @@
 }
 
 html, body, #root{
-  background: linear-gradient(180deg,lightblue,white);
+  background: linear-gradient(18deg,rgb(20, 127, 163),white);
+  /* background: url('./images/bg-shoes.jpeg'); */
 }
 
 .Box{

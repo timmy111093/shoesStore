@@ -11,7 +11,7 @@ const Aside: FC<AsideProps> = () => (
       <NavLink className={`Box ${styles.Aside}`} to='/home'>דף הבית</NavLink>
       <NavLink className={`Box ${styles.Aside}`} to='/products'>מוצרים</NavLink>
       <NavLink className={`Box ${styles.Aside}`} to='/about'>מי אנחנו</NavLink>
-      <NavLink className={`Box ${styles.Aside}`} to='/successStories'>סיפורי הצלחה</NavLink>
+      <NavLink className={`Box ${styles.Aside}`} to='/successStories'>חוות דעת</NavLink>
       <NavLink className={`Box ${styles.Aside}`} to='/employees'>עובדי החנות</NavLink>
     </nav>
   </aside>

@@ -1,0 +1,17 @@
+.AuthMenu {
+      position: absolute;
+      text-align: center;
+      right: 40%;
+      top: 20px;
+
+      & button{
+            width: 100px;
+            background-color: rgb(122, 180, 231);
+            color: rgb(13, 33, 50);
+            &:hover{
+                  background-color: rgb(13, 33, 50);
+                  color: aliceblue;
+            }
+      }
+}
+

@@ -1,7 +1,7 @@
 .Loader {
       background: #fff;
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       position: relative;
       animation: spin 0.8s ease-in-out infinite alternate;
@@ -17,9 +17,9 @@
 
 @keyframes spin{
       0%{
-            transform: translateX(-100%) rotate(0deg);
+            transform: translateX(-75%) rotate(0deg);
       }
       100%{
-            transform: translateX(100%) rotate(360deg);
+            transform: translateX(75%) rotate(360deg);
       }
 }

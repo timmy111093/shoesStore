@@ -1,6 +1,26 @@
 .Header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      direction: ltr;
+      & h1{
+            margin: 10px;
+            direction: ltr;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            &:hover{
+                  cursor: pointer;
+            }
+      }
+      
+      &__search{
+            position: absolute;
+            top: 5px;
+            right: 1%;
+            margin: 10px;
+            direction: rtl;
+            
+            &__btn{
+                  width: 60px;
+            }
+      }
 }

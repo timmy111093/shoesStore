@@ -7,6 +7,7 @@ interface Employee {
       city: string;
       birthDate:string;
       imageName:string;
+      image: FileList;
 }
 
 export default Employee;

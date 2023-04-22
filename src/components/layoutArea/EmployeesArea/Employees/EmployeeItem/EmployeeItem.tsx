@@ -14,19 +14,14 @@ const EmployeeItem: FC<EmployeeItemProps> = ({employee}) => {
   const imgSrc = `${BASE_API_URL}/images/${imageName}`;
 
   return(
-
     <div className={`Box ${styles.EmployeeItem__empCard}`}>
-      
-      <header className={styles.EmployeeItem__empHeader}>
-        מס' עובד: {id}
-      </header>
       <div className={styles.EmployeeItem__empBody}>
-        <span><b>שם מלא:</b> {firstName} {lastName}</span> <br />
-        <span><b> תפקיד:</b> {title}</span><br />
+        <span>{firstName} {lastName}</span> <br />
+        {/* <span><b> תפקיד:</b> {title}</span><br />
         <span> <b>מגורים:</b> {country} | {city}</span><br />
-        <span><b> תאריך לידה:</b> {birthDate}</span><br />
+        <span><b> תאריך לידה:</b> {birthDate}</span><br /> */}
       </div>
-      <div className={styles.ProductItem__link}>
+      <div className={styles.EmployeeItem__link}>
             <NavLink to={`/images/${id}`}>
               <img src={imgSrc} alt={firstName} />
             </NavLink>
