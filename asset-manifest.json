@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shoesStore/static/css/main.39691469.css",
+    "main.js": "/shoesStore/static/js/main.059fb992.js",
+    "static/js/787.dd9e09b4.chunk.js": "/shoesStore/static/js/787.dd9e09b4.chunk.js",
+    "static/media/yeezy.webp": "/shoesStore/static/media/yeezy.b9f9327789de9d280fff.webp",
+    "static/media/jordan-1 blue.jpeg": "/shoesStore/static/media/jordan-1 blue.5a22e7c5e5e627888ce9.jpeg",
+    "static/media/nike.webp": "/shoesStore/static/media/nike.94c176a440c77147c0cb.webp",
+    "static/media/converse.jpeg": "/shoesStore/static/media/converse.78e45a65498426ff1146.jpeg",
+    "static/media/nike-2.jpg": "/shoesStore/static/media/nike-2.c1258cbdfdc4f037d370.jpg",
+    "index.html": "/shoesStore/index.html",
+    "main.39691469.css.map": "/shoesStore/static/css/main.39691469.css.map",
+    "main.059fb992.js.map": "/shoesStore/static/js/main.059fb992.js.map",
+    "787.dd9e09b4.chunk.js.map": "/shoesStore/static/js/787.dd9e09b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39691469.css",
+    "static/js/main.059fb992.js"
+  ]
+}
